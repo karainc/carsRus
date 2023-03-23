@@ -1,0 +1,75 @@
+
+/* @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One"); */
+
+/*Typography
+--------------------------------------------------------------*/
+
+
+input,
+textarea {
+	color: #404040;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+  text-align: center;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
+  font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0.25rem;
+}
+
+#orderButton {
+    margin: .2rem;
+    padding-bottom: .5rem;
+    background-color: rgb(72, 77, 227);
+    color: lightgoldenrodyellow;
+    font-size: 2rem;
+    
+    
+}
+
+section {
+  border-style: groove;
+  border-color: blue;
+  border-radius: 8px;
+  padding: 1px;
+  margin: 1rem;
+  background-color: aquamarine;
+  text-align: center;
+}
+.options {
+  flex-basis: 24%;
+  margin: 0 2rem;
+  border: 1px dashed dodgerblue;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.25rem 0.25rem 0.5rem rgb(143, 143, 143);
+}
+.customOrders {
+  text-align: center;
+  border-style: ridge;
+  border-color: aliceblue;
+  background-color: aquamarine;
+  font-size: larger;
+}
+body {
+  background-color: aqua;
+}
+select {
+  background-color: blue;
+ color: aliceblue;
+ font-family: "Comfortaa", Arial, sans-serif;
+ font-size: 18px;
+ text-align: center;
+}
+div {
+  text-align: center;
+}
